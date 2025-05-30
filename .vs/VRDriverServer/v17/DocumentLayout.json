@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52AD23BB-F0CF-4D04-A2C2-74B392E1F562}|VRDriverServer\\VRDriverServer.csproj|C:\\Users\\jarek\\source\\repos\\VRDriverServer\\vrdriverserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52AD23BB-F0CF-4D04-A2C2-74B392E1F562}|VRDriverServer\\VRDriverServer.csproj|solutionrelative:vrdriverserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52AD23BB-F0CF-4D04-A2C2-74B392E1F562}|VRDriverServer\\VRDriverServer.csproj|c:\\users\\jarek\\source\\repos\\vrdriverserver\\vrdriverserver\\joycon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52AD23BB-F0CF-4D04-A2C2-74B392E1F562}|VRDriverServer\\VRDriverServer.csproj|solutionrelative:vrdriverserver\\joycon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52AD23BB-F0CF-4D04-A2C2-74B392E1F562}|VRDriverServer\\VRDriverServer.csproj|C:\\Users\\jarek\\source\\repos\\VRDriverServer\\vrdriverserver\\controllerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52AD23BB-F0CF-4D04-A2C2-74B392E1F562}|VRDriverServer\\VRDriverServer.csproj|solutionrelative:vrdriverserver\\controllerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52AD23BB-F0CF-4D04-A2C2-74B392E1F562}|VRDriverServer\\VRDriverServer.csproj|c:\\users\\jarek\\source\\repos\\vrdriverserver\\vrdriverserver\\kinecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52AD23BB-F0CF-4D04-A2C2-74B392E1F562}|VRDriverServer\\VRDriverServer.csproj|solutionrelative:vrdriverserver\\kinecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52AD23BB-F0CF-4D04-A2C2-74B392E1F562}|VRDriverServer\\VRDriverServer.csproj|C:\\Users\\jarek\\source\\repos\\VRDriverServer\\vrdriverserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52AD23BB-F0CF-4D04-A2C2-74B392E1F562}|VRDriverServer\\VRDriverServer.csproj|solutionrelative:vrdriverserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ebe3f1d5-feac-4131-bf03-0e85ffb89a89}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{ebe3f1d5-feac-4131-bf03-0e85ffb89a89}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KinectHandler.cs",
+              "DocumentMoniker": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\VRDriverServer\\KinectHandler.cs",
+              "RelativeDocumentMoniker": "VRDriverServer\\KinectHandler.cs",
+              "ToolTip": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\VRDriverServer\\KinectHandler.cs",
+              "RelativeToolTip": "VRDriverServer\\KinectHandler.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAlwEEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:22:19.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Joycon.cs",
+              "DocumentMoniker": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\VRDriverServer\\Joycon.cs",
+              "RelativeDocumentMoniker": "VRDriverServer\\Joycon.cs",
+              "ToolTip": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\VRDriverServer\\Joycon.cs",
+              "RelativeToolTip": "VRDriverServer\\Joycon.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwEsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:31:16.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\VRDriverServer\\Form1.cs",
+              "RelativeDocumentMoniker": "VRDriverServer\\Form1.cs",
+              "ToolTip": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\VRDriverServer\\Form1.cs",
+              "RelativeToolTip": "VRDriverServer\\Form1.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:18:17.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControllerInput.cs",
+              "DocumentMoniker": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\VRDriverServer\\ControllerInput.cs",
+              "RelativeDocumentMoniker": "VRDriverServer\\ControllerInput.cs",
+              "ToolTip": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\VRDriverServer\\ControllerInput.cs",
+              "RelativeToolTip": "VRDriverServer\\ControllerInput.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwIAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:44:03.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\VRDriverServer\\Form1.cs",
+              "RelativeDocumentMoniker": "VRDriverServer\\Form1.cs",
+              "ToolTip": "C:\\Users\\jarek\\source\\repos\\VRDriverServer\\VRDriverServer\\Form1.cs [Design]",
+              "RelativeToolTip": "VRDriverServer\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:25:50.83Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
