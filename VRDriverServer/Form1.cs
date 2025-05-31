@@ -46,21 +46,21 @@ namespace VRDriverServer
         {
             if (rightJoycon != null)
             {
-                rJoyGyroX.Text = $"X: {rightJoycon.pitch:F3}°";
-                rJoyGyroY.Text = $"Y: {rightJoycon.yaw:F3}°";
-                rJoyGyroZ.Text = $"Z: {rightJoycon.roll:F3}°";
-                rJoyAccelX.Text = $"X: {rightJoycon.accelX / 8192.0f:F3}";
-                rJoyAccelY.Text = $"Y: {rightJoycon.accelY / 8192.0f:F3}";
-                rJoyAccelZ.Text = $"Z: {rightJoycon.accelZ / 8192.0f:F3}";
+                rJoyGyroX.Text = $"X: {rightJoycon.pitch:F2}°";
+                rJoyGyroY.Text = $"Y: {rightJoycon.yaw:F2}°";
+                rJoyGyroZ.Text = $"Z: {rightJoycon.roll:F2}°";
+                rJoyAccelX.Text = $"X: {rightJoycon.accelX / 8192.0f:F2}";
+                rJoyAccelY.Text = $"Y: {rightJoycon.accelY / 8192.0f:F2}";
+                rJoyAccelZ.Text = $"Z: {rightJoycon.accelZ / 8192.0f:F2}";
             }
             if(leftJoycon != null)
             {
-                lJoyGyroX.Text = $"X: {leftJoycon.pitch:F3}°";
-                lJoyGyroY.Text = $"Y: {leftJoycon.yaw:F3}°";
-                lJoyGyroZ.Text = $"Z: {leftJoycon.roll:F3}°";
-                lJoyAccelX.Text = $"X: {leftJoycon.accelX / 8192.0f:F3}";
-                lJoyAccelY.Text = $"Y: {leftJoycon.accelY / 8192.0f:F3}";
-                lJoyAccelZ.Text = $"Z: {leftJoycon.accelZ / 8192.0f:F3}";
+                lJoyGyroX.Text = $"X: {leftJoycon.pitch:F2}°";
+                lJoyGyroY.Text = $"Y: {leftJoycon.yaw:F2}°";
+                lJoyGyroZ.Text = $"Z: {leftJoycon.roll:F2}°";
+                lJoyAccelX.Text = $"X: {leftJoycon.accelX / 8192.0f:F2}";
+                lJoyAccelY.Text = $"Y: {leftJoycon.accelY / 8192.0f:F2}";
+                lJoyAccelZ.Text = $"Z: {leftJoycon.accelZ / 8192.0f:F2}";
             }
         }
     }

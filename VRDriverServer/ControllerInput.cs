@@ -62,6 +62,28 @@ namespace VRDriverServer
                 stream.Write(buf);
             }
 
+            void SendSpiWrite(byte address, byte value)
+            {
+                byte[] buf = new byte[49];
+                buf[0] = 0x01; // Output report ID
+                buf[1] = packetCounter++;
+                buf[10] = 0x10; // SPI write subcommand
+
+                // SPI write format: 0x00 (write), addr_high, addr_low, data_byte
+                buf[11] = 0x00;             // SPI write
+                buf[12] = 0x00;             // High byte of address (0x00 for IMU registers)
+                buf[13] = address;          // Low byte of register address
+                buf[14] = value;            // Data to write
+
+                stream.Write(buf, 0, buf.Length);
+            }
+
+            SendSpiWrite(0x1B, 0x00);
+            Thread.Sleep(100);
+            SendSpiWrite(0x1C, 0x00);
+            Thread.Sleep(100);
+
+
             SendSubCommand(0x80, new byte[] { 0x01 }); // Handshake
             Thread.Sleep(100);
 
