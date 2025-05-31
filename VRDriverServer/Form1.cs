@@ -19,17 +19,19 @@ namespace VRDriverServer
         public Form1()
         {
             InitializeComponent();
+            // UI stuff
             statusLabel.Text = "Stopped.";
             statusLabel.ForeColor = Color.Red;
+            Timer updateTimer = new Timer();
+            updateTimer.Interval = 20;
+            updateTimer.Tick += (s, e) => DisplayJoyconStats(s, e);
+            updateTimer.Start();
+            //Initialization
             input = new ControllerInput();
             kinect = new KinectHandler(tilt, tiltValue, kinectView, start_stop, statusLabel);
             input.Initialize();
             if (input.rightJoycon != null) rightJoycon = input.rightJoycon;
             if (input.leftJoycon != null) leftJoycon = input.leftJoycon;
-            Timer updateTimer = new Timer();
-            updateTimer.Interval = 20;
-            updateTimer.Tick += (s, e) => DisplayJoyconStats(s, e);
-            updateTimer.Start();
         }
 
         private void start_stop_Click(object sender, EventArgs e)

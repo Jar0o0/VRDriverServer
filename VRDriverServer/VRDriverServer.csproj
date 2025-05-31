@@ -112,6 +112,7 @@
     </Compile>
     <Compile Include="Joycon.cs" />
     <Compile Include="KinectHandler.cs" />
+    <Compile Include="MadgwickAHRS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

@@ -29,6 +29,7 @@ namespace VRDriverServer
         public const float accelScale = 8192.0f;
 
         private Stopwatch stopwatch = new Stopwatch();
+        private MadgwickAHRS filter;
 
         public void Initialize()
         {
@@ -37,6 +38,7 @@ namespace VRDriverServer
             timer.Interval = 16; // ~60 Hz
             timer.Tick += (s, e) => TimerTick(s, e);
             timer.Start();
+            filter = new MadgwickAHRS();
         }
 
         private void UpdateOrientation(short rawGx, short rawGy, short rawGz, short rawAx, short rawAy, short rawAz)
@@ -105,8 +107,14 @@ namespace VRDriverServer
 
         private void TimerTick(object sender, EventArgs e)
         {
-            UpdateOrientation(gyroX, gyroY, gyroZ, accelX, accelY, accelZ);
-            UpdateRotation();
+            //UpdateOrientation(gyroX, gyroY, gyroZ, accelX, accelY, accelZ);
+            //UpdateRotation();
+
+            filter.UpdateIMU(gyroX, gyroY, gyroZ, accelX, accelY, accelZ);
+            Vector3 euler = filter.ToEulerAngles();
+            yaw = euler.Z;
+            pitch = euler.Y;
+            roll = euler.X;
         }
 
         public void UpdateRotation()
